@@ -2,3 +2,71 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 50px;
+}
+.color{
+    color: orange;
+}
+.openning{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.openning, .dream-big{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 7%;
+}
+.half-width img{
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(lightpink, orange);
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 700px;
+}
+.experience{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.half-experience{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px black;
+    padding-left: 15px;
+    border-left: 8px solid ;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.half-experience p{
+    margin-bottom: 60px;
+}
+.ex-1{
+    font-size: 40px;
+}
+.ex{
+    font-size: 30px;
+}
+.second-color{
+    color: #FFA873;
+}
+footer{
+    text-align: center;
+}
